@@ -1,0 +1,445 @@
+html{
+    overflow-x: hidden;
+}
+
+html,body{
+    margin:0;
+    font-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    background-color: beige;
+}
+
+.navbar{
+    height: 100px;
+}
+
+.collapse{
+    background-color: rgba(52, 58, 64, 1);
+}
+
+.logoEmpresa{
+    height: 100px;
+}
+
+#navegacion{
+    border-right: 1px solid rgb(108, 113, 117);
+}
+
+#navegacion:hover{
+    background-color: rgb(108, 113, 117);
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.resumen{
+    /*background-color: aquamarine;*/
+    padding: 3%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.resumenTwo{
+    /*background-color: aquamarine;*/
+    padding: 1%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.mision,.vision,.valores{
+    padding-top: 2%;
+}
+
+.imagRef{
+    width: 70%;
+    height: auto;
+    text-align: center;
+}
+
+.vehiculos{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.card{
+    padding-top: 20px;
+}
+
+.icons{
+    font-size: 9ex;
+}
+
+#bus{
+    font-size: 12ex;
+}
+
+.imag{
+    align-items: center;
+}
+
+.text{
+    font-size: 15px;
+    text-align: center;
+    border-left: solid black 1px;
+}
+
+.textUs{
+    font-size: 20px;
+    text-align: justify;
+    border-left: solid black 1px;
+}
+
+.textUs2{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.textTwo{
+    text-align: justify;
+    padding-bottom: 1%;
+}
+
+#aboutUs{
+    text-align: center;
+    border-bottom: dotted black 2px;
+    margin-bottom: 2%;
+}
+
+#one,#two{
+    margin-bottom: 3%;
+}
+
+#acercaVehiculos{
+    font-size: 20px;
+    width: 250px;
+    margin-bottom: 2%;
+}
+
+#btns{
+    margin-top: 15px;
+    width: 200px;
+}
+
+.carousel{
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+.carousel_MD{
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.serviciosL{
+    width: 100%;
+    height: 550px;
+    display: block;
+}
+
+#galeria{
+    margin-top: 3%;
+}
+
+#cardsContacto{
+    background-color: transparent;
+    border: none;
+}
+
+#contactanos{
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+}
+
+#cardsComunicacion{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+#card_comunication{
+    text-align: justify;
+}
+
+#comunication{
+    text-align: center;
+}
+
+#tel{  
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#tel i{
+    margin-right: 15px;
+    align-items: center;
+    margin-left: 35%;
+}
+
+#phone{
+    font-size: 40px;
+}
+
+#titleCard{
+    text-align: center;
+    font-weight: 600;
+}
+
+.formulario{
+    background-color: #fff;
+    margin: 50px auto;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contacto::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: burlywood;
+    opacity: 0.9;
+}
+
+.contacto{
+    width: 38%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../IMG/Luces.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.infoTitle,
+.info{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+.infoTitle{
+    margin-bottom: 60px;
+}
+
+.infoTitle span{
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.infoTitle h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.info p{
+    display: flex;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.info p:nth-child(1) span{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.info p:nth-child(2) span{
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 4px;
+}
+
+.formularioContacto{
+    width: 62%;
+    padding: 30px 40px;
+}
+
+@media (max-width: 992px){
+    .formularioContacto{
+        width: 100%;
+        padding: 30px 40px;
+    }
+}
+
+form.formularioContacto .user_info{
+    display: flex;
+    flex-direction: column;
+}
+
+form.formularioContacto label{
+    font-weight: 600;
+}
+
+form.formularioContacto input,
+form.formularioContacto textarea{
+    width: 100%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+
+	color: #5A5A5A;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+form.formularioContacto textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90px;
+}
+
+form.formularioContacto input[type="submit"]{
+    width: 180px;
+	background: #ecc440;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+
+    align-self: flex-end;
+
+    color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+form.formularioContacto input[type="submit"]:hover{
+    background: #b65c33;
+}
+
+.campos{
+    margin-bottom: 10px;
+}
+
+#h1SerLoc{
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: 600;
+}
+
+#infoServiciosL{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+#imagRefSerL{    
+    text-align: center;
+}
+
+.imgServiciosL{
+    width: auto;
+    height: 300px;
+}
+
+#cardComunidad .card-body{
+    text-align: center;
+}
+
+.cardSL{
+    background-color: #d4c48e;
+}
+
+.cardSE{
+    background-color: cadetblue;
+}
+
+#cabecera{
+    background-color: #757575;
+    color: rgb(228, 228, 228);
+}
+
+.tablaComunidades{
+    text-align: center;
+    font-size: 17px;
+}
+
+.tablaSantuarios{
+    text-align: center;
+    font-size: 16px;
+}
+
+#comunidad{
+    text-align: justify;
+}
+
+#vehiculosComunidades{
+    font-size: 18px;
+}
+
+#nombreSantuario{
+    width: 25%;
+}
+
+#precioViaje{
+    width: 25%;
+}
+
+.botonContact{
+    display: flex;
+    align-items: center;
+}
+
+.infoContactSE{
+    text-align: justify;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgba(52, 58, 64, 1);
+    color: whitesmoke;
+}
+
+.redes{
+    font-size: 15px;
+}
+
+.red{
+    margin: 3% 10px 0px 10px;
+}
+
+.creators{
+    font-size: 20px;
+}
+
+.creators_SM{
+    font-size: 16px;
+    padding: 1%;
+}
+
+#info p{
+    font-size: 13px;
+}
+
+#divDown{
+    background-color: whitesmoke;
+}
+
+.privacidad{
+    font-size: 10px;
+}

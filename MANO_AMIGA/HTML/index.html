@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/34a019b2e7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/index.css" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet" />
+
+  <title>Servicios Unidos · Mano Amiga</title>
+</head>
+
+<body>
+  <!--NAV BAR-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <a class="navbar-brand" href="#">
+        <img src="../IMG/ej.JPG" alt="Logo" class="logoEmpresa" />
+      </a>
+    </div>
+    <!--Se contrae la navBar-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item" id="navegacion">
+          <a class="nav-link" href="catalogoVehiculos.html">Catalogo Vehiculos</a>
+        </li>
+        <li class="nav-item dropdown" id="navegacion">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Servicios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="serviciosLocales.html">Locales</a>
+            <a class="dropdown-item" href="serviciosEspeciales.html">Especiales</a>
+          </div>
+        </li>
+        <li class="nav-item" id="navegacion">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item" id="navegacion">
+          <a class="nav-link" href="contactenos.html">Contactanos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--CONTENIDO DE LA PAGINA-->
+  <div class="container">
+
+    <!--ACERCA DE LA EMPRESA GDE-->
+    <div class="d-none d-lg-block d-xl-block">
+      <div class="row resumen justify-content-around" id="one">
+        <div class="col-3 imag">
+          <i class="fas fa-bus icons" id="bus"></i>
+        </div>
+        <div class="col-9 textUs">
+          <h1 id="aboutUs">Acerca de nosotros</h1>
+          Iniciamos dando servico urbano y suburbano al municipio de Jilotepec
+          de Molina Enriquez Estado de México, porque en ese momento, la
+          cabecera municipal no contaba con un servicio similar, en ese
+          moemnto los caminones que brindaban un servicio similar solo
+          entraban por el libramiento y llegaban unicamente a la central,
+          sinedo solo un servicio de entrada y salida, se creo con el
+          porposito de acercar a la comunidad al centro y agilizar su
+          traslado, esto con costos más bajos y accesibles para todos.
+        </div>
+      </div>
+    </div>
+
+    <!--ACERCA DE LA EMPRESA PEQUEÑO-->
+    <div class="d-block d-lg-none d-xl-none">
+      <div class="row resumen justify-content-around" id="one">
+        <div class="col-12 imag">
+          <i class="fas fa-bus icons" id="bus"></i>
+        </div>
+        <div class="col-12 textUs2">
+          <h1 id="aboutUs">Acerca de nosotros</h1>
+          Iniciamos dando servico urbano y suburbano al municipio de Jilotepec
+          de Molina Enriquez Estado de México, porque en ese momento, la
+          cabecera municipal no contaba con un servicio similar, en ese
+          moemnto los caminones que brindaban un servicio similar solo
+          entraban por el libramiento y llegaban unicamente a la central,
+          sinedo solo un servicio de entrada y salida, se creo con el
+          porposito de acercar a la comunidad al centro y agilizar su
+          traslado, esto con costos más bajos y accesibles para todos.
+        </div>
+      </div>
+    </div>
+
+    <!--SERVICIOS GDE-->
+    <div class="d-none d-lg-block d-xl-block">
+      <div class="row resumen">
+        <div class="col-5 imag">
+          <i class="fas fa-map-marked-alt icons" id="mapa"></i>
+          <h2 id="aboutUs">Servicios</h2>
+          <div class="col textTwo">
+            Los servicios que brindamos es una forma en que los trabajadores y
+            estudiantes puedan acercarse a su empleo o a sus lugares de estudio.
+            Actualmente contamos con servicios de transporte local, que son
+            aquellos que acercan a las comunidades con la cabecera municipal; y
+            al mismo tiempo brindamos servicios de caracter especial, estos son
+            aquellos que se realizan mediante un contrato y estos pueden ser un
+            viaje dentro del municipio, o a cualquier estado de la Republica
+            Mexicana.
+          </div>
+          <div class="row justify-content-around">
+            <a href="serviciosLocales.html" class="btn btn-info" id="btns">Locales</a>
+            <a href="serviciosEspeciales.html" class="btn btn-info" id="btns">Especiales</a>
+          </div>
+        </div>
+
+        <div class="col-7">
+          <img src="../IMG/ej.JPG" alt="imagenReferencia" class="imagRef" />
+        </div>
+      </div>
+    </div>
+
+    <!--SERVICIOS MD ==> XM-->
+    <div class="d-block d-lg-none d-xl-none">
+      <div class="row resumen">
+        <div class="col-12 imag">
+          <i class="fas fa-map-marked-alt icons" id="mapa"></i>
+          <h2 id="aboutUs">Servicios</h2>
+          <div class="col textTwo">
+            Los servicios que brindamos es una forma en que los trabajadores y
+            estudiantes puedan acercarse a su empleo o a sus lugares de estudio.
+            Actualmente contamos con servicios de transporte local, que son
+            aquellos que acercan a las comunidades con la cabecera municipal; y
+            al mismo tiempo brindamos servicios de caracter especial, estos son
+            aquellos que se realizan mediante un contrato y estos pueden ser un
+            viaje dentro del municipio, o a cualquier estado de la Republica
+            Mexicana.
+          </div>
+          <div class="col-12">
+            <img src="../IMG/ej.JPG" alt="imagenReferencia" class="imagRef" />
+          </div>
+          <div class="row justify-content-around">
+            <a href="serviciosLocales.html" class="btn btn-info" id="btns">Locales</a>
+            <a href="serviciosEspeciales.html" class="btn btn-info" id="btns">Especiales</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--INFORMACION ACERCA DE LOS TIPOS DE VEHICULOS DE LA EMPRESA GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <div class="row vehiculos">
+        <div class="col-4">
+          <div class="card">
+            <img src="../IMG/ej.JPG" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Vehiculos #1</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card">
+            <img src="../IMG/ej.JPG" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Vehiculos #2</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="card">
+            <img src="../IMG/ej.JPG" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Vehiculos #3</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-around">
+        <a href="catalogoVehiculos.html" class="btn btn-info" id="acercaVehiculos">Vehiculos disponibles</a>
+      </div>
+    </div>
+
+    <!--INFORMACION ACERCA DE LOS TIPOS DE VEHICULOS DE LA EMPRESA SM Y XM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row justify-content-around vehiculos">
+        <div class="col-6">
+          <div class="card">
+            <img src="../IMG/ej.JPG" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Vehiculos #1</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card">
+            <img src="../IMG/ej.JPG" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Vehiculos #2</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-around">
+        <a href="catalogoVehiculos.html" class="btn btn-info" id="acercaVehiculos">Vehiculos disponibles</a>
+      </div>
+    </div>
+
+    <!--APRTADO PARA LA MISION Y VISION GDE-->
+    <div class="d-none d-lg-block d-xl-block">
+      <div class="row resumenTwo justify-content-around">
+        <div class="col-4 mision">
+          <i class="fas fa-crosshairs icons" id="mision"></i>
+          <h2>Misión</h2>
+        </div>
+
+        <div class="col-4 vision">
+          <i class="fas fa-eye icons" id="vision"></i>
+          <h2>Visión</h2>
+        </div>
+
+        <div class="col-4 valores">
+          <i class="fas fa-hands icons" id="valores"></i>
+          <h2>Valores</h2>
+        </div>
+      </div>
+
+      <div class="row resumenTwo justify-content-around" id="one">
+        <div class="col-4 textTwo">
+          Nuestra misión es prestar un buen servicio a toda la población que lo
+          necesite y nos lo solicite. Dentro de lo que nos caracteriza se
+          encuentra que contamos con unidades que se encuenran dentro de la
+          norma que solicita la Secretaria de Movilidad del Estado de México.
+        </div>
+        <div class="col-4 textTwo">
+          Como empresa buscamos la expansión de la misma, para asi brindar un
+          acceso mayor a la población y acercarnos más a sus necesidades de
+          tranporte.
+        </div>
+        <div class="col-4 textTwo">
+          Nosotros como empresa fomentamos los valores de:
+          <div class="row justify-content-around">
+            <ul class="col-4">
+              <li>Respeto</li>
+              <li>Tolerancia</li>
+              <li>Honrades</li>
+              <li>Amistad</li>
+            </ul>
+            <ul class="col-4">
+              <li>Colaboración</li>
+              <li>Ayuda</li>
+              <li>Entre otros</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--APRTADO PARA LA MISION Y VISION MD-->
+    <div class="d-none d-md-block d-lg-none">
+      <div class="row resumenTwo justify-content-around">
+        <div class="col-12 mision">
+          <i class="fas fa-crosshairs icons" id="mision"></i>
+          <h2>Misión</h2>
+        </div>
+      </div>
+      <div class="row resumenTwo justify-content-around" id="one">
+        <div class="col-12 textTwo">
+          Nuestra misión es prestar un buen servicio a toda la población que lo
+          necesite y nos lo solicite. Dentro de lo que nos caracteriza se
+          encuentra que contamos con unidades que se encuenran dentro de la
+          norma que solicita la Secretaria de Movilidad del Estado de México.
+        </div>
+      </div>
+
+      <div class="row resumenTwo justify-content-around">
+        <div class="col-6 vision">
+          <i class="fas fa-eye icons" id="vision"></i>
+          <h2>Visión</h2>
+        </div>
+
+        <div class="col-6 valores">
+          <i class="fas fa-hands icons" id="valores"></i>
+          <h2>Valores</h2>
+        </div>
+      </div>
+
+      <div class="row resumenTwo justify-content-around" id="one">
+        <div class="col-6 textTwo">
+          Como empresa buscamos la expansión de la misma, para asi brindar un
+          acceso mayor a la población y acercarnos más a sus necesidades de
+          tranporte.
+        </div>
+        <div class="col-6 textTwo">
+          Nosotros como empresa fomentamos los valores de:
+          <div class="row justify-content-around">
+            <ul class="col-4">
+              <li>Respeto</li>
+              <li>Tolerancia</li>
+              <li>Honrades</li>
+              <li>Amistad</li>
+            </ul>
+            <ul class="col-4">
+              <li>Colaboración</li>
+              <li>Ayuda</li>
+              <li>Entre otros</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--APRTADO PARA LA MISION Y VISION SM ==> XM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row resumenTwo justify-content-around">
+        <div class="col-12 mision">
+          <i class="fas fa-crosshairs icons" id="mision"></i>
+          <h2>Misión</h2>
+        </div>
+      </div>
+
+      <div class="row resumenTwo justify-content-around" id="one">
+        <div class="col-12 textTwo">
+          Nuestra misión es prestar un buen servicio a toda la población que lo
+          necesite y nos lo solicite. Dentro de lo que nos caracteriza se
+          encuentra que contamos con unidades que se encuenran dentro de la
+          norma que solicita la Secretaria de Movilidad del Estado de México.
+        </div>
+      </div>
+
+      <div class="row resumenTwo justify-content-around">
+        <div class="col-12 vision">
+          <i class="fas fa-eye icons" id="vision"></i>
+          <h2>Visión</h2>
+        </div>
+      </div>
+
+      <div class="row resumenTwo justify-content-around" id="one">
+        <div class="col-12 textTwo">
+          Como empresa buscamos la expansión de la misma, para asi brindar un
+          acceso mayor a la población y acercarnos más a sus necesidades de
+          tranporte.
+        </div>
+      </div>
+
+      <div class="row resumenTwo justify-content-around">
+        <div class="col-12 valores">
+          <i class="fas fa-hands icons" id="valores"></i>
+          <h2>Valores</h2>
+        </div>
+      </div>
+
+      <div class="row resumenTwo justify-content-around" id="one">
+        <div class="col-12 textTwo">
+          Nosotros como empresa fomentamos los valores de:
+          <div class="row justify-content-around">
+            <ul class="col-5 ml-3 mt-3">
+              <li>Respeto</li>
+              <li>Tolerancia</li>
+              <li>Honrades</li>
+              <li>Amistad</li>
+            </ul>
+            <ul class="col-5 mt-3">
+              <li>Colaboración</li>
+              <li>Ayuda</li>
+              <li>Entre otros</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CONTACTENOS GDE-->
+    <div class="d-none d-lg-block d-xl-block">
+      <div class="row resumen" id="one">
+        <div class="col-7">
+          <img src="../IMG/ej.JPG" alt="imagenReferencia" class="imagRef" />
+        </div>
+
+        <div class="col-5 imag">
+          <i class="fas fa-comments icons" id="contacto"></i>
+          <h2 id="aboutUs">Contactenos</h2>
+          <div class="col textTwo">
+            Si desea conocer más acerca de nosotros como empresa y de los
+            servicios que brindamos, puede contactarse con nosotros mediante
+            correo electronico, o mediante una llamada telefonica, somos una
+            empresa que trata de mantener una buena comunicación con quienes
+            solicitan nuestro servicio. Si desea saber más de nosotros no dude
+            en ponerse en contacto.
+          </div>
+          <div class="row justify-content-around">
+            <a href="contactenos.html" class="btn btn-info" id="btns">Saber más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CONTACTENOS MD-->
+    <div class="d-block d-lg-none d-xl-none">
+      <div class="row resumen" id="one">
+        <div class="col-12 imag">
+          <i class="fas fa-comments icons" id="contacto"></i>
+          <h2 id="aboutUs">Contactenos</h2>
+          <div class="col textTwo">
+            Si desea conocer más acerca de nosotros como empresa y de los
+            servicios que brindamos, puede contactarse con nosotros mediante
+            correo electronico, o mediante una llamada telefonica, somos una
+            empresa que trata de mantener una buena comunicación con quienes
+            solicitan nuestro servicio. Si desea saber más de nosotros no dude
+            en ponerse en contacto.
+          </div>
+          <div class="row justify-content-around">
+            <a href="contactenos.html" class="btn btn-info" id="btns">Saber más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--AQUI ACABA EL CONTAINER-->
+
+  <!--FOOTER MD ==> XL-->
+  <div class="d-none d-md-block d-lg-block d-xl-block">
+    <footer class="footer">
+      <div class="row">
+        <div class="col-4">
+          <img src="../IMG/ej.JPG" alt="Logo" class="logoEmpresa" />
+        </div>
+        <div class="col-8 redes">
+          <i class="red fas fa-at"></i>correoDeEjemplo@ejemplo.com
+          <i class="red fas fa-phone-alt"></i>761 734 1127
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12" id="info">
+          <label class="creators"><u>Servicios Unidos Urbanos y Suburbanos de Jilotepec, S.A de C.V</u></label>
+          <p>Calle Juarez Esquina Jvier Mina No. 111 JIlotepec Centro 54240</p>
+          <hr id="divDown" />
+        </div>
+        <div class="col-12">
+          <p class="privacidad">
+            Aviso de privacidad | Términos y condiciones <br />
+            Los precios publicados en esta tienda están sujetos a cambios sin
+            previo aviso y solo son aplicables para ventas en línea.
+            <br />
+            Algunos títulos están sujetos a disponibilidad. <br />
+            Todos los Derechos Reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!--FOOTER SM-->
+  <div class="d-block d-md-none d-lg-none d-xl-none">
+    <footer class="footer">
+      <div class="row">
+        <div class="col-12 redes">
+          <i class="red fas fa-at"></i>correoDeEjemplo@ejemplo.com
+          <i class="red fas fa-phone-alt"></i>761 734 1127
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12" id="info">
+          <label class="creators_SM"><u>Servicios Unidos Urbanos y Suburbanos de Jilotepec, S.A de C.V</u></label>
+          <p>Calle Juarez Esquina Jvier Mina No. 111 JIlotepec Centro 54240</p>
+          <hr id="divDown" />
+        </div>
+        <div class="col-12">
+          <p class="privacidad">
+            Aviso de privacidad | Términos y condiciones <br />
+            Los precios publicados en esta tienda están sujetos a cambios sin
+            previo aviso y solo son aplicables para ventas en línea.
+            <br />
+            Algunos títulos están sujetos a disponibilidad. <br />
+            Todos los Derechos Reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

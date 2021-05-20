@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/34a019b2e7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../CSS/index.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+  <title>Servicios Unidos · Servicios Especiales</title>
+</head>
+
+<body>
+  <!--NAV BAR-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <a class="navbar-brand" href="index.html">
+        <img src="../IMG/ej.JPG" alt="Logo" class="logoEmpresa">
+      </a>
+    </div>
+    <!--Se contrae la navBar-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item" id="navegacion">
+          <a class="nav-link" href="catalogoVehiculos.html">Catalogo Vehiculos</a>
+        </li>
+        <li class="nav-item dropdown" id="navegacion">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Servicios
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="serviciosLocales.html">Locales</a>
+            <a class="dropdown-item" href="#">Especiales</a>
+          </div>
+        </li>
+        <li class="nav-item" id="navegacion">
+          <a class="nav-link" href="index.html">Nosotros</a>
+        </li>
+        <li class="nav-item" id="navegacion">
+          <a class="nav-link" href="contactenos.html">Contactanos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--CONTENIDO-->
+  <div class="container">
+
+    <!--Carrucel GDE-->
+    <div class="d-none d-lg-block d-xl-block">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="../IMG/Luces.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Dunas.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Luces.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Dunas.jpg" class="carousel" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--Carrucel MD-->
+    <div class="d-none d-md-block d-lg-none">
+      <div id="carouselExampleFade" class="carousel_MD slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel_MD carousel-item active" data-bs-interval="3000">
+            <img src="../IMG/Luces.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel_MD carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Dunas.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel_MD carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Luces.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel_MD carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Dunas.jpg" class="carousel" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--Carrucel SM-->
+    <div class="d-none">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="../IMG/Luces.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Dunas.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Luces.jpg" class="carousel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../IMG/Dunas.jpg" class="carousel" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!--TITULO GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <h1 class="mt-3" id="h1SerLoc">Servicios Especiales</h1>
+    </div>
+
+    <!--TITULO SM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <h3 class="mt-3" id="h1SerLoc">Servicios Especiales</h3>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-12" id="infoServiciosL">
+        <p>
+          <b>Aqui iria informacion acerca de los viajes especiales, como el cuales son aceptados y apartir de cuantos
+            pasajeros funciona</b>
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+        </p>
+      </div>
+    </div>
+
+    <!--TRANSPORTE PERSONAL GDE-->
+    <h3 class="mt-3" id="h1SerLoc">Transporte de personal</h3>
+
+    <div class="d-none d-lg-block d-xl-block">
+      <div class="row mb-5">
+        <div class="col-6" id="imagRefSerL">
+          <img src="../IMG/ej.JPG" alt="" class="imgServiciosL">
+        </div>
+        <div class="col-6" id="infoServiciosL">
+          <p>
+            <b>Aqui va información de como funciona el transporte de personal y hasta que empresas son validas</b>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--TRANSPORTE PERSONAL MD ==> XM-->
+    <div class="d-block d-lg-none d-xl-none">
+      <div class="row mb-3">
+        <div class="col-12" id="imagRefSerL">
+          <img src="../IMG/ej.JPG" alt="" class="imgServiciosL mb-3">
+        </div>
+        <div class="col-12" id="infoServiciosL">
+          <p>
+            <b>Aqui va información de como funciona el transporte de personal y hasta que empresas son validas</b>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--SANTUARIOS-->
+    <!--TABLA MD ==> GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <div class="row mb-3">
+        <h3 id="h1SerLoc">Viajes a Santuarios</h3>
+        <div class="col-12">
+          <table class="table table-bordered table-striped table-warning tablaSantuarios">
+            <thead>
+              <tr class="fila">
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Chalma</td>
+              <td>$$$.00</td>
+              <td>San Juan de los Lagos</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>Vasilica</td>
+              <td>$$$.00</td>
+              <td>Chalma</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>San Juan de los Lagos</td>
+              <td>$$$.00</td>
+              <td>Vasilica</td>
+              <td>$$$.00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!--TABLA SM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row mb-3">
+        <h3 id="h1SerLoc">Viajes a Santuarios</h3>
+        <div class="col-12">
+          <table class="table table-bordered table-striped table-warning tablaSantuarios">
+            <thead>
+              <tr class="fila">
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Chalma</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>Vasilica</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>San Juan de los Lagos</td>
+              <td>$$$.00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!--CARDS MD ==> GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <div class="row mt-3 mb-3">
+        <h3 id="h1SerLoc">Ejemplos de Santuarios visitados</h3>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del santuario</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del santuario</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del santuario</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CARDS SM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row mt-3 mb-3">
+        <h3 id="h1SerLoc">Ejemplos de Santuarios visitados</h3>
+        <div class="col-12 mb-3">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del santuario</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del santuario</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--PUERTOS-->
+    <!--TABLA MD ==> GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <div class="row mb-3">
+        <h3 id="h1SerLoc">Viajes a Puertos</h3>
+        <div class="col-12">
+          <table class="table table-bordered table-striped table-info tablaSantuarios">
+            <thead>
+              <tr class="fila">
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Acapulco</td>
+              <td>$$$.00</td>
+              <td>Puerto Vallarta</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>Huatulco</td>
+              <td>$$$.00</td>
+              <td>Veracruz</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>Acapulco</td>
+              <td>$$$.00</td>
+              <td>Puerto Vallarta</td>
+              <td>$$$.00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!--TABLA SM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row mb-3">
+        <h3 id="h1SerLoc">Viajes a Puertos</h3>
+        <div class="col-12">
+          <table class="table table-bordered table-striped table-info tablaSantuarios">
+            <thead>
+              <tr class="fila">
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Acapulco</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>Huatulco</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>Acapulco</td>
+              <td>$$$.00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!--CARDS MD ==> GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <div class="row mt-3 mb-3">
+        <h3 id="h1SerLoc">Ejemplos de Puertos visitados</h3>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del puerto</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del puerto</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del puerto</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CARDS SM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row mt-3 mb-3">
+        <h3 id="h1SerLoc">Ejemplos de Puertos visitados</h3>
+        <div class="col-12 mb-3">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del puerto</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del puerto</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--VISITAS GUIADAS-->
+    <!--TABLA MD ==> GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <div class="row mb-3">
+        <h3 id="h1SerLoc">Viajes por Visitas Guiadas</h3>
+        <div class="col-12">
+          <table class="table table-bordered table-striped table-warning tablaSantuarios">
+            <thead>
+              <tr class="fila">
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Guanajuato</td>
+              <td>$$$.00</td>
+              <td>Pachuca</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>CDMX</td>
+              <td>$$$.00</td>
+              <td>Puebla</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>Guanajuato</td>
+              <td>$$$.00</td>
+              <td>Pachuca</td>
+              <td>$$$.00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!--TABLA SM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row mb-3">
+        <h3 id="h1SerLoc">Viajes por Visitas Guiadas</h3>
+        <div class="col-12">
+          <table class="table table-bordered table-striped table-warning tablaSantuarios">
+            <thead>
+              <tr class="fila">
+                <th id="nombreSantuario">Nombre del lugar</th>
+                <th id="precioViaje">Precio estandar (para mayor informacion puede comunicarse con nostros)</th>
+              </tr>
+            </thead>
+            <tr>
+              <td>Guanajuato</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>CDMX</td>
+              <td>$$$.00</td>
+            </tr>
+            <tr>
+              <td>Guanajuato</td>
+              <td>$$$.00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!--CARDS MD ==> GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <div class="row mt-3 mb-3">
+        <h3 id="h1SerLoc">Ejemplos de viajes por Visitas Guiadas</h3>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del lugar</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del lugar</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del lugar</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CARDS SM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row mt-3 mb-3">
+        <h3 id="h1SerLoc">Ejemplos de viajes por Visitas Guiadas</h3>
+        <div class="col-12 mb-3">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del lugar</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mb-3">
+          <div class="card cardSE" id="cardComunidad">
+            <img src="../IMG/ej.JPG" alt="imgSantuario">
+            <div class="card-body">
+              <h5 class="card-title">Nombre del lugar</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CONTACTANOS MD ==> GDE-->
+    <div class="d-none d-md-block d-lg-block d-xl-block">
+      <div class="row mt-4 mb-3">
+        <div class="col-9 infoContactSE">
+          <h3 id="h1SerLoc">Para mayor información</h3>
+          <p id="">
+            <b>Si desea mayor información puede comunicarse con nostros, mencionar el porque deberia hacerlo y para que
+              se puede
+              comunicar con nosotros, motivos
+            </b>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+        </div>
+        <div class="col-3 botonContact">
+          <a href="contactenos.html" class="btn btn-info" id="btns">Contactanos</a>
+        </div>
+      </div>
+    </div>
+
+    <!--CONTACTANOS SM-->
+    <div class="d-block d-md-none d-lg-none d-xl-none">
+      <div class="row mt-4">
+        <div class="col-12 infoContactSE">
+          <h3 id="h1SerLoc">Para mayor información</h3>
+          <p id="">
+            <b>Si desea mayor información puede comunicarse con nostros, mencionar el porque deberia hacerlo y para que
+              se puede
+              comunicar con nosotros, motivos
+            </b>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </p>
+        </div>
+      </div>
+      <div class="row mb-3 justify-content-around">
+        <a href="contactenos.html" class="btn btn-info" id="btns">Contactanos</a>
+      </div>
+    </div>
+
+  </div>
+  <!--FIN DEL CONTAINER-->
+
+  <!--FOOTER MD ==> XL-->
+  <div class="d-none d-md-block d-lg-block d-xl-block">
+    <footer class="footer">
+      <div class="row">
+        <div class="col-4">
+          <img src="../IMG/ej.JPG" alt="Logo" class="logoEmpresa" />
+        </div>
+        <div class="col-8 redes">
+          <i class="red fas fa-at"></i>correoDeEjemplo@ejemplo.com
+          <i class="red fas fa-phone-alt"></i>761 734 1127
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12" id="info">
+          <label class="creators"><u>Servicios Unidos Urbanos y Suburbanos de Jilotepec, S.A de C.V</u></label>
+          <p>Calle Juarez Esquina Jvier Mina No. 111 JIlotepec Centro 54240</p>
+          <hr id="divDown" />
+        </div>
+        <div class="col-12">
+          <p class="privacidad">
+            Aviso de privacidad | Términos y condiciones <br />
+            Los precios publicados en esta tienda están sujetos a cambios sin
+            previo aviso y solo son aplicables para ventas en línea.
+            <br />
+            Algunos títulos están sujetos a disponibilidad. <br />
+            Todos los Derechos Reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!--FOOTER SM-->
+  <div class="d-block d-md-none d-lg-none d-xl-none">
+    <footer class="footer">
+      <div class="row">
+        <div class="col-12 redes">
+          <i class="red fas fa-at"></i>correoDeEjemplo@ejemplo.com
+          <i class="red fas fa-phone-alt"></i>761 734 1127
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12" id="info">
+          <label class="creators_SM"><u>Servicios Unidos Urbanos y Suburbanos de Jilotepec, S.A de C.V</u></label>
+          <p>Calle Juarez Esquina Jvier Mina No. 111 JIlotepec Centro 54240</p>
+          <hr id="divDown" />
+        </div>
+        <div class="col-12">
+          <p class="privacidad">
+            Aviso de privacidad | Términos y condiciones <br />
+            Los precios publicados en esta tienda están sujetos a cambios sin
+            previo aviso y solo son aplicables para ventas en línea.
+            <br />
+            Algunos títulos están sujetos a disponibilidad. <br />
+            Todos los Derechos Reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
